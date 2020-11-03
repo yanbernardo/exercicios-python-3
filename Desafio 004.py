@@ -1,0 +1,10 @@
+def Exercicio():
+    r1 = input('Digite algo: ')
+    print('É um número?')
+    print(r1.isnumeric())
+    print('É um texto?')
+    print(r1.isalpha())
+    print('É alfanúmerico?')
+    print(r1.isalnum())
+    Exercicio()
+Exercicio()

@@ -1,0 +1,7 @@
+nome = input('Digite seu nome aqui: ').strip()
+print('-'*40)
+print()
+print('Seu nome com todas as letras maiúsculas:\n{}\n'.format(nome.upper()))
+print('Seu nome com todas as letras minúsculas:\n{}\n'.format(nome.lower()))
+print('O número de caracteres sem contar os espaços é:\n{}\n'.format(int(len(nome)) - int(nome.count(' '))))
+print('O número de letras de seu primeiro nome é:\n{}\n'.format(len(nome.split()[0])))
