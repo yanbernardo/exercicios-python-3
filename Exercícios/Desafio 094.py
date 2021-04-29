@@ -1,6 +1,6 @@
 tot = list()
 ind = dict()
-idt = media = 0
+idt = 0
 #Pergunta Recursiva
 while True:
     ind.clear()
@@ -39,5 +39,5 @@ print('-='*30)
 print(f'Pessoas com idade acima da média do grupo: ')
 for ind in tot:
     if ind['idade'] >= media:
-        print(f'Nome: {ind["nome"]:^10}       Sexo: {ind["sexo"]:^3}     Idade: {ind["idade"]:^2}  ')
+        print(f'Nome:{ind["nome"]:^20}Sexo:{ind["sexo"]:^3}     Idade:{ind["idade"]:^4}  ')
 print('-='*30)
